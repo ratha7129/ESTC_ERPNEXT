@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-05-20 11:22:18.103235",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "duration",
+  "service_name",
+  "price",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fetch_from": "amended_from.service_name",
+   "fieldname": "service_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Service Name",
+   "options": "Spa Service",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "amended_from.price",
+   "fieldname": "price",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Price",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Spa Duration and Price",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fetch_from": "amended_from.duration",
+   "fieldname": "duration",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Duration Minute",
+   "options": "Spa Duration",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-05-20 16:53:58.071873",
+ "modified_by": "Administrator",
+ "module": "Spa",
+ "name": "Spa Duration and Price",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_preview_popup": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
