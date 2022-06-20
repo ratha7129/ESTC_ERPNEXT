@@ -1,0 +1,44 @@
+{
+ "chart_name": "New and Repeat Customer Revenue",
+ "chart_type": "Report",
+ "creation": "2022-04-16 23:40:58.175841",
+ "custom_options": "{\"x_field\": \"month\", \"chart_type\": \"Bar\", \"y_axis_fields\": [{\"idx\": 1, \"__islocal\": true, \"name\": \"row 1\", \"y_field\": \"new_customer_revenue\", \"color\": \"#29CD42\"}, {\"idx\": 2, \"__islocal\": true, \"name\": \"row 2\", \"y_field\": \"repeat_customer_revenue\", \"color\": \"#CB2929\"}], \"y_fields\": [\"new_customer_revenue\", \"repeat_customer_revenue\"], \"colors\": [\"#29CD42\", \"#CB2929\"]}",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "filters_json": "{\"view_type\":\"Monthly\",\"company\":\"EST Computer\",\"from_date\":\"2022-01-01\",\"to_date\":\"2022-12-31\"}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 0,
+ "is_standard": 1,
+ "modified": "2022-04-16 23:43:24.520493",
+ "modified_by": "Administrator",
+ "module": "CRM",
+ "name": "New and Repeat Customer Revenue",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "report_name": "Customer Acquisition and Loyalty",
+ "time_interval": "Yearly",
+ "timeseries": 0,
+ "timespan": "Last Year",
+ "type": "Pie",
+ "use_report_chart": 0,
+ "x_field": "month",
+ "y_axis": [
+  {
+   "color": "#29CD42",
+   "y_field": "new_customer_revenue"
+  },
+  {
+   "color": "#CB2929",
+   "y_field": "repeat_customer_revenue"
+  },
+  {
+   "color": "#B4CD29",
+   "y_field": "new_customers"
+  },
+  {
+   "color": "#761ACB",
+   "y_field": "repeat_customers"
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: frappe
+Version: 14.0.0b3
+Summary: Metadata driven, full-stack web framework
+Home-page: UNKNOWN
+Author: Frappe Technologies
+Author-email: info@frappe.io
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
